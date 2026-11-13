@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "friendhost"
+version = "1.0.0"
+displayName = "Friend Host"
+description = '''
+Host your single-player world for friends with an invite code.
+Client-side mod: the host and the friends install it.
+'''
+
+[[dependencies.friendhost]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.friendhost]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "CLIENT"
